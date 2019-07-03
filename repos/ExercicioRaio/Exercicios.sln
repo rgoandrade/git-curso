@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioAreaCirculo", "ExercicioRaio\ExercicioAreaCirculo.csproj", "{BFD43566-C02E-45BD-B5E9-512819387F67}"
 EndProject
@@ -47,11 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasoTeste", "CasoTeste\Caso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisaoNumeros", "DivisaoNumeros\DivisaoNumeros.csproj", "{7B009CDA-7130-4060-8C7C-18D0BB100755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fatorial", "Fatorial\Fatorial.csproj", "{F3AF7A5B-BE73-4086-AFA3-E9CC91BD7846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fatorial", "Fatorial\Fatorial.csproj", "{F3AF7A5B-BE73-4086-AFA3-E9CC91BD7846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisores", "Divisores\Divisores.csproj", "{E9A269F7-2945-45E5-9B1A-087E616B2729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divisores", "Divisores\Divisores.csproj", "{E9A269F7-2945-45E5-9B1A-087E616B2729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadradoCubo", "QuadradoCubo\QuadradoCubo.csproj", "{59912147-34DA-4CB3-BBCC-DD3466145F99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadradoCubo", "QuadradoCubo\QuadradoCubo.csproj", "{59912147-34DA-4CB3-BBCC-DD3466145F99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
