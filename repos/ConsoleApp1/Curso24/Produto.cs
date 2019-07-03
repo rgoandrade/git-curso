@@ -14,8 +14,5 @@ namespace Curso24 {
             return Preco * Quantidade;
 
         }
-
-
-
     }
 }
