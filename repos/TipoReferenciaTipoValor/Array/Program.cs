@@ -11,7 +11,7 @@ namespace ExemploArray {
 
             a = new Arranjo(n);            
 
-            a.Vetor(n);
+            a.Vetor();
             
             Console.WriteLine(a);
         }

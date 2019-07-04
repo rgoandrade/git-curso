@@ -12,21 +12,21 @@ namespace ExemploArray {
             NumeroElemento = n;
         }
 
-        public double Vetor (int n) {
+        public double Vetor () {
 
-            double[] vect = new double[n];
+            double[] vect = new double[NumeroElemento];
             double soma = 0.0;
 
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < NumeroElemento; i++) {
                 vect[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             }            
 
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < NumeroElemento; i++) {
                 soma += vect[i];
 
             }
 
-            avg = (soma / n);
+            avg = (soma / NumeroElemento);
 
             return avg;
         }
