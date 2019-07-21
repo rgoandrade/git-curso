@@ -30,7 +30,7 @@ namespace Composition2.Entities
 
         public double Total()
         {
-            double total = 1;
+            double total = 0;
 
             foreach (OrderItem item in Items)
             {
