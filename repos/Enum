@@ -1,0 +1,13 @@
+
+
+OrderStatus os = (OrderStatus)100;
+
+int os1 = (int)OrderStatus.Fechado;
+
+
+string txt = OrderStatus.Fechado.ToString();
+
+OrderStatus os = Enum.Parse<OrderStatus>("Aberto");
+
+
+
