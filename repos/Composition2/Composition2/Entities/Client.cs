@@ -20,7 +20,5 @@ namespace Composition2.Entities
             Email = email;
             BirthDate = birthDate;
         }
-
-
     }
 }
