@@ -2,6 +2,7 @@
 using System.Globalization;
 using Composition1.Entities;
 using Composition1.Entities.Enums;
+using System.Text;
 
 
 namespace Composition1
@@ -58,6 +59,9 @@ namespace Composition1
             Console.WriteLine("Name: " + worker.Name);
             Console.WriteLine("Department:" + worker.Department.Name);
             Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(year, month));
+
+
+            //StringBuilder stringBuilder = new StringBuilder("Apredendo !!!");
         }
     }
 }
