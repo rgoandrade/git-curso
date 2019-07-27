@@ -15,6 +15,5 @@ namespace Composition1.Entities
         {
             Name = name;
         }
-
     }
 }

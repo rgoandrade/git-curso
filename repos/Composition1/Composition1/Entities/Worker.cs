@@ -19,7 +19,7 @@ namespace Composition1.Entities
 
         public Worker(string name, WorkerLevel level, double baseSalary, Department department)
         {
-            Name = name;
+            Name = name; 
             Level = level;
             BaseSalary = baseSalary;
             Department = department;
