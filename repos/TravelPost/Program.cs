@@ -1,5 +1,4 @@
-﻿using System;
-using TravelPost.Entities;
+﻿using TravelPost.Entities;
 
 namespace TravelPost
 {
@@ -21,6 +20,8 @@ namespace TravelPost
             p1.AddComment(c1);
             p1.AddComment(c2);
             p1.AddComment(c5);
+
+
 
 
             Comment c3 = new Comment("Good Night !");
