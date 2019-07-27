@@ -31,7 +31,7 @@ namespace TravelPost
                 DateTime.Parse("28/07/2018 23:14:19"),
                 "Good night guys",
                 "See you tomorrow !",
-                5
+                10
                 );
 
             p2.AddComment(c3);
@@ -39,7 +39,7 @@ namespace TravelPost
             p2.AddComment(c6);
 
             Console.WriteLine(p1);
-            Console.WriteLine(p2);            
+            //Console.WriteLine(p2);            
         }
     }
 }
