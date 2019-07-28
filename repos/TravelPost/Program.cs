@@ -24,9 +24,7 @@ namespace TravelPost
             p1.AddComment(c2);
             p1.AddComment(c5);
             p1.AddComment(c7);
-
-
-
+                        
             Comment c3 = new Comment("Good Night !");
             Comment c4 = new Comment("My the Force be with you !");
             Comment c6 = new Comment("teste de hoje");
