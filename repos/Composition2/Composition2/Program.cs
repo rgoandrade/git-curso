@@ -40,9 +40,14 @@ namespace Composition2
 
                 Product product = new Product(nameProduct, price);
                 OrderItem item = new OrderItem(quantity, price, product);
-                
-                
-                
+
+
+
+
+
+
+
+
 
             }
 
