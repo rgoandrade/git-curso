@@ -9,7 +9,7 @@ namespace TravelPost
         static void Main(string[] args)
         {
             Comment c1 = new Comment("Have a nice trip !");
-            Comment c2 = new Comment("Wow tha's awesomexxx !");
+            Comment c2 = new Comment("Wow tha's awesome !");
             Comment c5 = new Comment("Teste hoje !");
             Comment c7 = new Comment("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 

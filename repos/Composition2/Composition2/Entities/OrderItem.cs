@@ -7,7 +7,7 @@ namespace Composition2.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public Product Product { get; set; }
+        public Product Product { get; set; } = new Product();
 
         public OrderItem()
         {
