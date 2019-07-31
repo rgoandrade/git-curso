@@ -38,8 +38,8 @@ namespace Composition2
                 Console.Write("Quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
 
-                Product product = new Product(nameProduct, price);
-                OrderItem item = new OrderItem(quantity, price, product);
+                //Product product = new Product(nameProduct, price);
+                OrderItem item = new OrderItem(quantity, price, new Product(nameProduct, price));
 
 
 
