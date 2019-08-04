@@ -29,7 +29,7 @@ namespace Composition2
             Console.Write("How many items to this order? ");
             int n = int.Parse(Console.ReadLine());
            
-            for (int i = 1; i < n; n++)
+            for (int i = 1; i <= n; i++)                 
             {
                 Console.WriteLine($"Enter #{i} item data:");
                 Console.Write("Product name: ");
@@ -45,9 +45,8 @@ namespace Composition2
                 order.AddItem(item);
             }
 
+            Console.WriteLine();
             Console.WriteLine(order);
-
-
         }
     }
 }

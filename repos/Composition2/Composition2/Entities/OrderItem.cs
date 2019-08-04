@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
 
 
 namespace Composition2.Entities
@@ -24,5 +26,17 @@ namespace Composition2.Entities
         {
             return Quantity * Price;
         }
+
+        public override string ToString()
+        {
+            return Product.Name
+            + ", $"
+            + Price.ToString("F2", CultureInfo.InvariantCulture)
+            + ", Quantity: "
+            + Quantity
+            + ", SubTotal: "
+            + SubTotal();
+        }
+
     }
 }
