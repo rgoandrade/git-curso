@@ -32,7 +32,7 @@ namespace Composition2.Entities
 
         public double Total()
         {
-            double total = 0;
+            double total = 0.0;
 
             foreach (OrderItem item in Items)
             {
@@ -51,7 +51,7 @@ namespace Composition2.Entities
             sb.Append("Order status: ");
             sb.AppendLine(Status.ToString());
             sb.Append("Client: ");
-            sb.Append(Client.ToString());
+            sb.Append(Client);
             sb.AppendLine("Order items:");
 
             foreach (OrderItem item in Items)

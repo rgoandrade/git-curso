@@ -35,7 +35,7 @@ namespace Composition2.Entities
             + ", Quantity: "
             + Quantity
             + ", SubTotal: "
-            + SubTotal();
+            + SubTotal().ToString("F2", CultureInfo.InvariantCulture);
         }
 
     }
