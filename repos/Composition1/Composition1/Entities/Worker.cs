@@ -49,8 +49,5 @@ namespace Composition1.Entities
             }
             return sum;
         }
-
-
-
     }
 }

@@ -17,11 +17,14 @@ namespace Composition2
             string email = Console.ReadLine();
 
             Console.Write("Birth date (DD/MM/YYYY): ");
-            DateTime date = DateTime.Parse(Console.ReadLine());
+            DateTime birthDate = DateTime.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter order data: ");
             Console.Write("Status:");
             OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
+            
+            Order order = new Order(DateTime.Now, status, new Client(name, email, birthDate));
+
 
             Console.Write("How many items to this order? ");
             int n = int.Parse(Console.ReadLine());
@@ -38,22 +41,11 @@ namespace Composition2
                 Console.Write("Quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
 
-                //Product product = new Product(nameProduct, price);
                 OrderItem item = new OrderItem(quantity, price, new Product(nameProduct, price));
-
-
-
-
-
-
-
-
-
+                order.AddItem(item);
             }
 
-            Console.WriteLine();
-            Console.WriteLine("ORDER SUMMARY:");
-
+            Console.WriteLine(order);
 
 
         }
