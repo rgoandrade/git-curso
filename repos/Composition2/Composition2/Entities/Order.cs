@@ -45,18 +45,14 @@ namespace Composition2.Entities
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("ORDER SUMMARY:");
-            sb.Append("Order moment: ");
-            sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
-            sb.Append("Order status: ");
-            sb.AppendLine(Status.ToString());
-            sb.Append("Client: ");
-            sb.Append(Client);
+            sb.AppendLine("Order moment: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine("Order status: " + Status);
+            sb.AppendLine("Client: " + Client);
             sb.AppendLine("Order items:");
 
             foreach (OrderItem item in Items)
             {
-                sb.Append(item.ToString());
+                sb.AppendLine(item.ToString());
             }
 
             sb.AppendLine("Total price: " + Total().ToString("F2", CultureInfo.InvariantCulture));

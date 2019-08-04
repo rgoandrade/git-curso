@@ -34,7 +34,7 @@ namespace Composition2.Entities
             + Price.ToString("F2", CultureInfo.InvariantCulture)
             + ", Quantity: "
             + Quantity
-            + ", SubTotal: "
+            + ", SubTotal: $"
             + SubTotal().ToString("F2", CultureInfo.InvariantCulture);
         }
 

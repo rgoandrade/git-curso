@@ -1,6 +1,7 @@
 ﻿using System;
 using Composition2.Entities.Enums;
 using Composition2.Entities;
+using System.Globalization;
 
 namespace Composition2
 {
@@ -36,7 +37,7 @@ namespace Composition2
                 string nameProduct = Console.ReadLine();               
 
                 Console.Write("Product price: ");
-                double price = double.Parse(Console.ReadLine());
+                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 Console.Write("Quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
@@ -46,6 +47,7 @@ namespace Composition2
             }
 
             Console.WriteLine();
+            Console.WriteLine("ORDER SUMMARY:");
             Console.WriteLine(order);
         }
     }
