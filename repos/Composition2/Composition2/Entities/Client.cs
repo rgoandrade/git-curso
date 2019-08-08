@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 
 namespace Composition2.Entities
@@ -23,11 +24,16 @@ namespace Composition2.Entities
 
         public override string ToString()
         {
-            return Name
-            + " ("
-            + BirthDate.ToString("dd/MM/yyyy")
-            + ") - "
-            + Email;
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(Name);
+            sb.Append(" (");
+            sb.Append(BirthDate.ToString("dd/MM/yyyy"));
+            sb.Append(") - ");
+            sb.Append(Email);
+            
+            return sb.ToString();
         }
     }
 }
